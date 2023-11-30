@@ -96,6 +96,15 @@ body {
   text-decoration: none;
 }
 
+.contact a:hover {
+  color: cornflowerblue;
+  font-weight: 900;
+}
+.contact a i:hover {
+  color: cornflowerblue;
+  scale: 1.5;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
