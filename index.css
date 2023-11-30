@@ -1,4 +1,101 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 60vw;
+  height: min-content;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: navy;
+  width: 20%;
+  height: 100%;
+
+  padding: 10px 0 10px 10px;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.contact .separator {
+  width: calc(60% + 15px);
+  height: 10px;
+  align-self: self-end;
+
+  background-color: white;
+}
+
+.contact .email,
+.contact .phone {
+  width: 100%;
+  height: min-content;
+  margin-bottom: 15px;
+}
+
+.contact .social-links {
+  width: 100%;
+  height: min-content;
+  margin-top: 35px;
+}
+
+.contact .social-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 0;
+  margin: 0;
+}
+
+.contact .social-links ul li {
+  margin-right: 10px;
+}
+
+.contact .social-links i {
+  line-height: 1.5rem;
+}
+
+.contact .social-links a i {
+  font-size: 1rem;
+}
+
+.contact .email i,
+.contact .phone i,
+.contact .social-links i {
+  color: white;
+  margin-right: 5px;
+}
+
+.contact .email a,
+.contact .phone a,
+.contact .social-links a {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  font-size: .55rem;
+  line-height: 1.5rem;
+
+  text-decoration: none;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
