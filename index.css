@@ -1,6 +1,6 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
 body {
-  background-color: cornflowerblue;
+  background-color: #836e4c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,12 +10,31 @@ body {
 .card {
   background-color: white;
   width: 60vw;
+  min-width: 265px;
   height: min-content;
 
   border-radius: 10px;
-  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.6);
 
   display: flex;
+}
+
+.card {
+  position: relative;
+}
+
+.photo {
+  width: 125px;
+  height: 200px;
+  position: absolute;
+  left: clamp(130px, 25%, 200px);
+  top: calc(50% - 100px);
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact {
@@ -24,8 +43,9 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: navy;
-  width: 20%;
+  background-color: darkolivegreen;
+  width: 25%;
+  min-width: 130px;
   height: 100%;
 
   padding: 10px 0 10px 10px;
