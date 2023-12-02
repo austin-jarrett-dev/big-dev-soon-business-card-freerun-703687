@@ -1,80 +1,98 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <bds />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>BigDevSoon - Business Card Project</title>
 
-<head>
-  <bds />
-  <link rel="stylesheet"
-        href="index.css" />
-  <script src="index.js"
-          defer></script>
-  <title>BigDevSoon - Business Card Project</title>
+    <script
+      src="https://kit.fontawesome.com/5d1006c884.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://kit.fontawesome.com/5d1006c884.js"
-          crossorigin="anonymous"></script>
+    <link rel="preload" href="/assets/images/user-photo.jpg" as="image" />
+  </head>
 
-  <link rel="preload"
-        href="/assets/images/user-photo.jpg"
-        as="image">
-</head>
+  <body>
+    <div class="card">
+      <div class="photo">
+        <img src="/assets/images/user-photo.jpg" alt="User Photo" />
+      </div>
 
-<body>
-  <!-- Place below is for your own exciting code -->
-  <div class="card">
+      <div class="contact">
+        <!-- email icon -->
+        <div class="email">
+          <i class="fa-solid fa-envelope"> Email</i>
+          <a href="mailto:austin.jarrett.dev@gmail.com" target="_blank">
+            austin.jarrett.dev@gmail.com
+          </a>
+        </div>
 
-    <div class="photo">
-      <img src="/assets/images/user-photo.jpg"
-           alt="User Photo">
+        <div class="phone">
+          <i class="fa-solid fa-phone"> Phone</i>
+          <a href="tel:1-417-988-1569" target="_blank"> 1-417-988-1569 </a>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="social-links">
+          <i class="fa-solid"> Find me on</i>
+          <ul class="link-icons">
+            <li>
+              <a
+                href="https://github.com/austin-jarrett-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/austin-jarrett2019/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="info__name"><span class="accent block">Austin</span> Jarrett</div>
+        <div class="info__tagline">
+          <h3>Full-Stack Developer | <span class="accent">Indianapolis</span></h3>
+        </div>
+        <div class="info__bio">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ut
+          magni rerum illo aspernatur, assumenda deleniti excepturi nesciunt
+          culpa atque sunt, fugiat, alias recusandae error ullam sed eligendi
+          commodi tenetur?
+        </div>
+        <div class="info__skills">
+          <h3>Working with technologies:</h3>
+          <ul class="info__skills-list">
+            <li class="info__skills-list__item">Java</li>
+            <li class="info__skills-list__item">JavaScript</li>
+            <li class="info__skills-list__item">HTML</li>
+            <li class="info__skills-list__item">CSS</li>
+            <li class="info__skills-list__item">
+              Adobe Experience Manager (AEM)
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div class="contact">
-      <!-- email icon -->
-      <div class="email">
-        <i class="fa-solid fa-envelope"> Email</i>
-        <a href="mailto:austin.jarrett.dev@gmail.com"
-           target="_blank">
-          austin.jarrett.dev@gmail.com
-        </a>
-      </div>
-
-      <div class="phone">
-        <i class="fa-solid fa-phone"> Phone</i>
-        <a href="tel:1-417-988-1569"
-           target="_blank">
-          1-417-988-1569
-        </a>
-      </div>
-
-      <div class="separator"></div>
-
-      <div class="social-links">
-        <i class="fa-solid"> Find me on</i>
-        <ul class="link-icons">
-          <li>
-            <a href="https://github.com/austin-jarrett-dev"
-               target="_blank"
-               rel="noopener noreferrer">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/austin-jarrett2019/"
-               target="_blank"
-               rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div class="footer">
+      <a href="https://bigdevsoon.me" target="_blank" rel="noopener noreferrer"
+        >Project by BigDevSoon</a
+      >
+      |
+      <span>Built with ❤️ by https://github.com/austin-jarrett-dev</span>
     </div>
-  </div>
-  <!-- Change the [ME] part to your own name/GitHub link -->
-  <div class="footer">
-    <a href="https://bigdevsoon.me"
-       target="_blank"
-       rel="noopener noreferrer">Project by BigDevSoon</a>
-    |
-    <span>Built with ❤️ by https://github.com/austin-jarrett-dev</span>
-  </div>
-</body>
-
+  </body>
 </html>
